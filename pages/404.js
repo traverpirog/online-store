@@ -2,7 +2,7 @@ import MainContainer from "../components/MainContainer";
 
 const Error = () => {
     return (
-        <MainContainer><div>Page not found</div></MainContainer>
+        <MainContainer><h1>Page not found</h1></MainContainer>
     )
 }
 

@@ -1,9 +1,13 @@
 .wrapper {
-    display: flex;
-    align-items: center;
-    gap: 16px;
     padding: 8px 0;
     position: sticky;
     top: 0;
     background-color: rgb(var(--light-color));
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }

@@ -1,7 +1,30 @@
 .wrapper {
+    position: relative;
     width: 100%;
 }
 
 .input {
     width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    background-color: rgb(var(--primary-color));
+    cursor: pointer;
+}
+
+.submit img {
+    filter: brightness(100);
 }

@@ -5,16 +5,19 @@ import Logo from '../../public/logo.svg'
 import HeaderMenu from "./HeaderMenu";
 import HeaderSearch from "./HeaderSearch";
 import HeaderButtons from "./HeaderButtons";
+import Container from "../Container";
 
 const Header = () => {
     return (
         <header className={styles.wrapper}>
-            <Link href="/">
-                <img src={Logo.src} alt="Логотип Интернет-Мегамаркет" title="Логотип Интернет-Мегамаркет"/>
-            </Link>
-            <HeaderMenu />
-            <HeaderSearch />
-            <HeaderButtons />
+            <Container className={styles.container}>
+                <Link href="/">
+                    <img src={Logo.src} alt="Логотип Интернет-Мегамаркет" title="Логотип Интернет-Мегамаркет"/>
+                </Link>
+                <HeaderMenu />
+                <HeaderSearch />
+                <HeaderButtons />
+            </Container>
         </header>
     );
 };

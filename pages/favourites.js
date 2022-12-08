@@ -3,7 +3,7 @@ import MainContainer from "../components/MainContainer";
 
 const Favourites = () => {
     return (
-        <MainContainer>
+        <MainContainer seoDescription='На нашем сайте вы можете ознакомиться с избранными товарами' seoTitle='Избранное - Онлайн Мегамаркет'>
             <h1>Favourites Page</h1>
         </MainContainer>
     );
