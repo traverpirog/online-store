@@ -1,9 +1,9 @@
 import styles from '../styles/MainContainer.module.css';
 import Head from "next/head";
-import Header from "./Header";
+import Header from "./header/Header";
 import Footer from "./Footer";
 import Container from "./Container";
-import favicon from '../public/favicon.svg'
+import favicon from '../public/favicon.svg';
 const MainContainer = ({children, seoTitle = 'Интернет-магазин', seoDescription = 'Покупка товаров через интернет-магазин'}) => {
     return (
         <>

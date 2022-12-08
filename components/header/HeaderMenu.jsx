@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/HeaderMenu.module.css';
+import styles from '../../styles/header/HeaderMenu.module.css';
 
 const HeaderMenu = () => {
     return (

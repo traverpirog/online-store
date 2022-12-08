@@ -1,6 +1,6 @@
 import React from 'react';
-import Input from "./Input";
-import styles from '../styles/HeaderSearch.module.css'
+import Input from "../Input";
+import styles from '../../styles/header/HeaderSearch.module.css'
 
 const HeaderSearch = () => {
     return (
