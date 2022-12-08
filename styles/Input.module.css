@@ -1,0 +1,6 @@
+.input {
+    border: 2px solid rgb(var(--primary-color));
+    padding: 14px 14px 14px 16px;
+    border-radius: 32px;
+    line-height: 20px;
+}

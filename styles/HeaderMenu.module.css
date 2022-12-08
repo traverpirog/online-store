@@ -1,0 +1,35 @@
+.menuWrapper {
+    display: none;
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.burgerLines {
+    flex: 0 0 auto;
+    display: flex;
+    width: 16px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-right: 8px;
+}
+
+.burgerLines::before,
+.burgerLines::after {
+    content: '';
+}
+
+.burgerLine,
+.burgerLines::before,
+.burgerLines::after {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(var(--light-color));
+}
