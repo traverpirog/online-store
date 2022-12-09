@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header className={styles.wrapper}>
             <Container className={styles.container}>
-                <Link href="/">
+                <Link className={styles.logo} href="/">
                     <img src={Logo.src} alt="Логотип Интернет-Мегамаркет" title="Логотип Интернет-Мегамаркет"/>
                 </Link>
                 <HeaderMenu />

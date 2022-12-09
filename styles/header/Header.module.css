@@ -11,3 +11,7 @@
     align-items: center;
     gap: 16px;
 }
+
+.logo {
+    flex: 0 0 auto;
+}
