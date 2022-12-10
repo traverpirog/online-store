@@ -1,0 +1,69 @@
+.wrapper {
+    margin-bottom: 64px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    min-height: 200px;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(var(--lightgray-color));
+    border-radius: 32px;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px;
+    background-color: rgb(var(--light-color),0.3);
+    border-radius: 16px;
+    color: rgb(var(--dark-color));
+    max-width: 200px;
+    width: 100%;
+    min-height: 102px;
+    transition: background-color var(--anim), color var(--anim);
+}
+
+.item:hover .caption {
+    color: rgb(var(--light-color));
+    background-color: rgb(var(--dark-color));
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 10px dashed rgb(var(--primary-color));
+    animation: rotateLoader 0.6s linear infinite;
+}
+
+@keyframes rotateLoader {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}

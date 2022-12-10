@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from "../Input";
+import Input from "../ui/Input";
 import styles from '../../styles/header/HeaderSearch.module.css';
 import searchIcon from '../../public/search.svg';
 

@@ -5,6 +5,8 @@
     --light-color: 255,255,255;
     --primary-color: 134,42,193;
     --lightgray-color: 238,241,242;
+
+    --anim: 0.4s ease;
 }
 
 html,

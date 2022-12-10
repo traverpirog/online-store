@@ -5,7 +5,7 @@ import Logo from '../../public/logo.svg'
 import HeaderMenu from "./HeaderMenu";
 import HeaderSearch from "./HeaderSearch";
 import HeaderButtons from "./HeaderButtons";
-import Container from "../Container";
+import Container from "../ui/Container";
 
 const Header = () => {
     return (
